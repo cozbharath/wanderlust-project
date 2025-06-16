@@ -1,0 +1,179 @@
+body {
+   font-family: "Poppins", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.card {
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: block;
+}
+.card-body {
+  padding: 1rem;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.show-img {
+  width: 100%;          
+  max-height: 400px;    
+  object-fit: cover;    
+  border-radius: 8px;  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-img  {
+    height: 30vh;
+
+
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Review Section */
+.review-section {
+  margin-top: 2rem;
+}
+
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-title {
+  font-weight: bold;
+  color: #0d6efd; /* Bootstrap primary */
+  margin-bottom: 0.5rem;
+}
+
+.review-stars {
+  color: #ffc107; /* Bootstrap warning */
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.review-comment {
+  color: #555;
+  font-size: 1rem;
+}
+
+.no-reviews {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
